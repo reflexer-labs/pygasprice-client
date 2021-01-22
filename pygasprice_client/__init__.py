@@ -216,7 +216,7 @@ class Etherscan(GasClientApi):
 class Gasnow(GasClientApi):
 
     URL = "https://www.gasnow.org/api/v3/gas/price"
-    SCALE = 1000000000
+    SCALE = 1
 
     def __init__(self, refresh_interval: int, expiry: int, app_name=None):
 
